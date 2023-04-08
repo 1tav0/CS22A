@@ -1,0 +1,49 @@
+Fill in the code so that the program will produce the following:
+
+ The area of the rectangle is 24 The perimeter of the rectangle is 22
+
+Copy and paste the code below in a filename LastFirst_lab23.cpp (e.g. DoeJoe_lab23.cpp) and save it in Lab 2 folder.
+Bring in the LastFirst_lab23.cpp program from the Lab 2 folder.
+Compile and run the program.
+Submit LastFirst_lab23.cpp by uploading it here.
+The following is the code to be used:
+
+// This program will output the area and perimeter of a
+
+// rectangle with the given length and witdth.
+
+// PLACE YOUR NAME HERE
+
+#include <iostream>
+
+using namespace std;
+
+const int LENGTH = 8;
+
+const int WIDTH = 3;
+
+int main()
+
+{
+
+_________ area; // definition of area of rectangle
+
+_________ perimeter; // definition of perimeter of rectangle
+
+ 
+
+area =_____________; // computes area
+
+perimeter =_____________; // computes perimeter
+
+// Fill in the code for the cout statement that will output (with description)
+
+// the area
+
+// Fill in the code for the cout statement that will output (with description)
+
+// the perimeter
+
+return 0;
+
+}

@@ -1,0 +1,52 @@
+Write a program that acts as a self-checkout register at a store and lets the user buy 2 items
+
+The program will prompt the user and read in:
+- the name of item 1. The name can be multiple words with space in between.
+- the price of item 1 and number of items 1. Read both the price and the number in one C++ statement
+- the name of item 2. The name can be multiple words with space in between.
+- the price of item 2 and the number of items 2. Read both the price and the number in one C++ statement
+
+Then the program calculates the total cost of the items, including the sales tax of 8.675%.
+The tax should be defined as a constant in the program, and not used as a literal.
+
+Last, the program prints the receipt on screen in the following format:
+
+Item            Count   Price   Ext. Price
+
+====            =====   =====   ========
+
+Item 1 Name       Num   Price   Price * Num
+
+Item 2 Name       Num   Price   Price * Num
+
+Tax                             Tax * SubTotal
+
+Total                           Total
+
+The output should be in column format, and the prices are with 2 digits after the decimal point.
+You can assume the item names will not be more than 20 characters wide.
+
+Example program output:
+(In this example the user buys mechanical pencils and binders, note that the item name is repeated in the second prompt of each item)
+
+Enter the name of item 1:  mechanical pencil
+
+Enter the number of mechanical pencil(s) and the price of each:  2  2.50
+
+Enter the name of item 2:  binder
+
+Enter the number of binder(s) and the price of each:  3  7.25
+
+ 
+
+Item               Count   Price   Ext. Price
+
+====               =====   =====   ========
+
+mechanical pencil      2    2.50       5.00
+
+binder                 3    7.25      21.75
+
+Tax                                    2.31
+
+Total                                 29.06

@@ -1,0 +1,15 @@
+Lab 6.1 Functions with void returns
+
+Write a C++ program consisting of main plus two other functions which will do the following:
+
+Take an integer input from the keyboard.
+
+Send the integer to a function which will output the integer to the screen.
+
+Send the integer to a second function which will tell the user that the integer is an odd value.
+
+Do not tell the user anything if the integer is an even value.
+
+Repeat this process until the user enters something which is not an integer; use input validation to check for validity.
+
+ Any not valid input should terminate the program.

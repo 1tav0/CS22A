@@ -1,0 +1,73 @@
+Fill in the code so that the program should produce output similar to the following:
+
+ The preferred soda is Dr. Dolittle
+
+The preferred snack is crackers
+
+Out of 250 people 148 chose these items!
+
+Each of these products were given a rating of A from our expert tasters
+
+The other products were rated no higher than a B
+
+Copy and paste the code below in a filename LastFirst_lab24.cpp (e.g. DoeJoe_lab24.cpp) and save it in Lab 2 folder.
+Bring in the LastFirst_lab24.cpp program from the Lab 2 folder.
+Compile and run the program.
+Submit LastFirst_lab24.cpp by uploading it here.
+The following is the code to be used:
+
+// This program demonstrates the use of characters and strings
+
+// PLACE YOUR NAME HERE
+
+#include <iostream>
+
+#include <string>
+
+using namespace std;
+
+// Declaration of constants
+
+const string FAVORITESODA = "Dr. Dolittle"; // use double quotes for strings
+
+const char BESTRATING = 'A'; // use single quotes for characters
+
+int main()
+
+{
+
+char rating; // 2nd highest product rating
+
+string favoriteSnack; // most preferred snack
+
+int numberOfPeople; // the number of people in the survey
+
+int topChoiceTotal; // the number of people who prefer the top choice
+
+// Fill in the code to do the following:
+
+// Assign the value of "crackers" to favoriteSnack
+
+// Assign a grade of 'B' to rating
+
+// Assign the number 250 to the numberOfPeople
+
+// Assign the number 148 to the topChoiceTotal
+
+// Fill in the blanks of the following:
+
+cout << "The preferred soda is " <<____________<< endl;
+
+cout << "The preferred snack is " <<___________<< endl;
+
+cout << "Out of " <<_________ << " people " <<_________ << " chose these items!" << endl;
+
+cout << "Each of these products were given a rating of " <<__________;
+
+cout << " from our expert tasters" << endl;
+
+cout << "The other products were rated no higher than a " << rating << endl;
+
+return 0;
+
+}

@@ -1,0 +1,57 @@
+Fill in the code so that the program will produce the following:
+
+ The circumference of the circle is 33.912 The area of the circle is 91.5624
+
+Copy and paste the code below in a filename LastFirst_lab22.cpp (e.g. DoeJoe_lab22.cpp) and save it in Lab 2 folder.
+Bring in the LastFirst_lab22.cpp program from the Lab 2 folder.
+Compile and run the program.
+Submit LastFirst_lab22.cpp by uploading it here.
+The following is the code to be used:
+
+// This program will output the circumference and area
+
+// of the circle with a given radius.
+
+// PLACE YOUR NAME HERE
+
+#include <iostream>
+
+using namespace std;
+
+const double PI = 3.14;
+
+const double RADIUS = 5.4;
+
+int main()
+
+{
+
+_________ area;      // definition of area of circle
+
+ 
+
+float circumference; // definition of circumference
+
+ 
+
+circumference = 2 * PI * RADIUS; // computes circumference
+
+ 
+
+area =_____________; // computes area
+
+ 
+
+// Fill in the code for the cout statement that will output (with description)
+
+// the circumference
+
+// Fill in the code for the cout statement that will output (with description)
+
+// the area of the circle
+
+ 
+
+return 0;
+
+}

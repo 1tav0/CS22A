@@ -1,0 +1,16 @@
+Write a program that will do the following steps:
+- generate 2 random integer numbers between 0 and 20
+- calculate the square root of each number 
+- calculate the average of the 2 numbers
+- print the 2 random numbers
+- print the square root of each random number with 3 digits after the decimal point
+- print the average of the 2 numbers with 1 digit after the decimal point 
+
+Example program output:
+The two random numbers are 2 and 3
+
+The average is 2.5
+
+The square root of 2 is 1.214
+
+The square root of 3 is 1.372

@@ -1,0 +1,47 @@
+Lab 2.1: Working with the cout statement
+
+Fill in the code so that the program will do the following:
+
+Write your first and last name on one line.
+Write your address on the next line (recall the function of the endl statement).
+Write your city, state and zip on the next line.
+Write your telephone number on the next line.
+Remember that to output a literal, such as "Hello", you must use quotes.
+Compile and run the program.
+Example:
+
+ John Doe 1234 Stevens Creek Boulevard Cupertino, CA 95014 Tel: (408) 555-5555
+
+Copy and paste the code below in a filename LastFirst_lab21.cpp (e.g. DoeJoe_lab21.cpp) and save it in Lab 2 folder.
+Bring in the LastFirst_lab21.cpp program from the Lab 2 folder.
+Compile and run the program.
+Submit LastFirst_lab21.cpp by uploading it here.
+The following is the code to be used:
+
+// This program will write the name, address and telephone
+
+// number of the programmer.
+
+// PLACE YOUR NAME HERE
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+// Fill in this space to write your first and last name
+
+// Fill in this space to write your address (on new line)
+
+// Fill in this space to write your city, state and zip (on new line)
+
+// Fill in this space to write your telephone number (on new line)
+
+return 0;
+
+}
+
+ 

@@ -1,0 +1,46 @@
+Lab 4.1: Working with Relational Operators and the if Statement
+
+This lab gives students their first practice with relational operators and the if statement.
+
+Copy and paste the code below in a filename LastFirst_lab41.cpp (e.g. DoeJoe_lab41.cpp) and save it in Lab 4 folder.
+Bring in the LastFirst_lab41.cpp program from the Lab 4 folder.
+Run the program several times using a different input each time. Does the program do what you expect? Is so, explain what it is doing. If not, locate the error and fix it.
+Modify the program so that the user inputs both values to be tested for equality. Make sure you have a prompt for each input. Test the program with pairs of values that are the same and that are different.
+Modify the program so that when the numbers are the same it prints the following lines:
+The values are the same. Hey that's a coincidence!
+
+Modify the revised program earlier by replacing the two if statements with a single if/else statement. Run the program again to test the results.
+Submit the revised LastFirst_lab41.cpp
+// This program tests whether or not an initialized value
+
+// is equal to a value input by the user
+
+// PLACE YOUR NAME HERE
+
+#include <iostream>
+
+using namespace std;
+
+int main( )
+
+{
+
+int num1; // num1 is not initialized
+
+int num2 = 5; // num2 has been initialized to 5
+
+cout << "Please enter an integer" << endl;
+
+cin >> num1;
+
+cout << "num1 = " << num1 << " and num2 = " << num2 << endl;
+
+if (num1 = num2)
+
+     cout << "Hey, that's a coincidence!" << endl;
+
+if (num1 != num2 ) cout << "The values are not the same" << endl;
+
+return 0;
+
+}
